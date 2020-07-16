@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import DynamicCodeBox from './DynamicCodeBox';
 import * as serviceWorker from './serviceWorker';
 
+// import sumFunction from './data/sumFunction.json'
+import project1 from './data/project1.json'
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+	<React.StrictMode>
+		<DynamicCodeBox data={project1} />
+	</React.StrictMode>,
+	document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

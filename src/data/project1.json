@@ -1,0 +1,33 @@
+{
+   "title": "dummy data - project 1",
+   "tabs": [
+      {
+         "type": "html",
+         "name": "index"
+      },
+      {
+         "type": "js",
+         "name": "script"
+      }
+   ],
+   "explanatories": {
+      "index": [
+         "Just implement a basic HTML page."
+      ],
+      "script": [
+         "Declare a function named after its use.",
+         "Add the number of arguments it should be provided with.",
+         "Return the outcome of the expression result."
+      ]
+   },
+   "codes": {
+      "index": [
+         "<html><head></head><body></body></html>"
+      ],
+      "script": [
+         "function sum() { };",
+         "function sum(a, b) { };",
+         "function sum(a, b) { return a + b; };"
+      ]
+   }
+}
